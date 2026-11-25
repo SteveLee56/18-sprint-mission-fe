@@ -3,12 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>판다마켓</title>
+    <title>판다마켓 > 로그인</title>
     <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/header.css" />
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/authForm.css" />
     <link
       rel="stylesheet"
       as="style"
@@ -17,53 +15,83 @@
     />
   </head>
   <body>
-    <header class="header">
+    <main>
       <div class="container">
         <div class="logo">
           <a href="/" class="logo-link">
-            <img src="/images/logo.png" alt="판다마켓 로고" />
+            <img
+              src="/images/logo-large.png"
+              alt="판다마켓 로고"
+              class="logo-image"
+            />
           </a>
         </div>
-        <nav class="nav">
-          <a href="/login" class="login-btn">로그인</a>
-        </nav>
+        <form action="" class="login-form form-wrap">
+          <div class="input-wrap email-area">
+            <label for="email">이메일</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="이메일을 입력해주세요"
+              required
+            />
+          </div>
+          <div class="input-wrap password-area">
+            <label for="password">비밀번호</label>
+            <div class="password-input-wrap">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="비밀번호를 입력해주세요"
+                required
+              />
+              <img
+                src="/images/form/btn_visibility_on_24px.png"
+                alt="보기 마크"
+                class="vision-mark"
+              />
+            </div>
+          </div>
+          <button class="form-button login-button">로그인</button>
+        </form>
+        <div class="social-login-wrapper">
+          <p class="social-login-title">간편 로그인하기</p>
+          <ul class="social-login-list">
+            <li class="social-login-item">
+              <a
+                href="https://www.google.com/"
+                class="social-login google-login"
+              >
+                <img
+                  src="/images/form/google_mark.png"
+                  alt="구글"
+                  class="google-mark"
+                />
+              </a>
+            </li>
+            <li class="social-login-item">
+              <a
+                href="https://www.kakaocorp.com/page/"
+                class="social-login kakao-login"
+              >
+                <img
+                  src="/images/form/kakao_mark.png"
+                  alt="구글"
+                  class="kakao-mark"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="bottom-nav signup-wrapper">
+          <p class="bottom-nav-message signup-message">
+            판다마켓이 처음이신가요?
+          </p>
+          <a href="/signup" class="bottom-link signup-link">회원가입</a>
+        </div>
       </div>
-    </header>
-    <main class="main">
-      <section class="container">
-        <div class="temp" style="height: 100vh">로그인</div>
-      </section>
     </main>
-    <footer class="footer">
-      <div class="container">
-        <p class="copyright">&copy;codeit - 2024</p>
-        <nav class="bottom-nav">
-          <a href="/privacy" class="privacy-policy">Privacy Policy</a>
-          <a href="/faq" class="faq">FAQ</a>
-        </nav>
-        <nav class="sns-nav">
-          <a
-            href="https://www.facebook.com"
-            class="sns-facebook"
-            target="_blank"
-          >
-            <img src="/images/sns_icons/ic_facebook.png" alt="facebook" />
-          </a>
-          <a href="https://www.x.com" class="sns-twitter" target="_blank">
-            <img src="/images/sns_icons/ic_twitter.png" alt="twitter" />
-          </a>
-          <a href="https://www.youtube.com" class="sns-youtube" target="_blank">
-            <img src="/images/sns_icons/ic_youtube.png" alt="youtube" />
-          </a>
-          <a
-            href="https://www.instagram.com"
-            class="sns-instagram"
-            target="_blank"
-          >
-            <img src="/images/sns_icons/ic_instagram.png" alt="instagram" />
-          </a>
-        </nav>
-      </div>
-    </footer>
   </body>
 </html>
