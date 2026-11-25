@@ -124,8 +124,8 @@
     - [ ] [체크리스트 작성 참고 이미지](https://bakey-api.codeit.kr/api/files/resource?root=static&seqId=8732&version=1&directory=Untitled.png&name=Untitled.png)
   - [ ] 주요 변경사항
   - [ ] 멘토님에게 남길 메시지
-- [ ] Git 활용 과정에서 Unix 명령어를 활용합니다.
-- [ ] HTML, CSS 파일을 Netlify를 통해 배포합니다.
+- [x] Git 활용 과정에서 Unix 명령어를 활용합니다.
+- [x] HTML, CSS 파일을 Netlify를 통해 배포합니다.
   - 참고 자료: [Netlify 배포 가이드](https://www.codeit.kr/learn/5309)
 
 ### 1-2. 로그인 페이지 및 회원가입 페이지 공통
@@ -152,7 +152,7 @@
 ### 2-1. 공통 사항
 
 - [x] 디자인 시스템의 Palette에 정의된 색상값을 CSS 변수로 등록하여 사용합니다.
-- [ ] Google Analytics를 연동하여 웹사이트 방문자 수를 확인할 수 있도록 설정합니다.
+- [x] Google Analytics를 연동하여 웹사이트 방문자 수를 확인할 수 있도록 설정합니다.
 
 ### 2-2. 로그인 페이지 및 회원가입 페이지 공통
 
@@ -165,8 +165,8 @@
 
 ### 프로젝트 및 Git 관리
 
-- [ ] README.md 작성
-- [ ] 레포지토리 Fork
-- [ ] 본인 브랜치 생성 및 작업물 업로드
-- [ ] 적절한 커밋 메시지 작성
-- [ ] Unix
+- [x] README.md 작성
+- [x] 레포지토리 Fork
+- [x] 본인 브랜치 생성 및 작업물 업로드
+- [x] 적절한 커밋 메시지 작성
+- [x] Unix
