@@ -1,5 +1,7 @@
 # 🐼 판다마켓 (Panda Market)
 
+https://sprint-mission-seokwon.netlify.app/
+
 # 목차
 
 - [스프린트 미션1](#스프린트-미션-1---디자인-및-구현-요구사항)
@@ -118,15 +120,16 @@
 - [x] 적절한 커밋 메시지를 작성합니다.
 - [x] `1-Sprint-Mission` 레포지토리를 Fork 합니다.
 - [ ] GitHub에서 PR(Pull Request)을 생성하여 upstream의 본인 브랜치에 미션을 제출합니다.
-- [ ] PR 코멘트에 다음 내용을 포함합니다.
-  - [ ] 스프린트 미션 요구사항 체크리스트
-    - [ ] 아래 참고 이미지와 같이 완료한 항목에 체크 표시를 합니다.
-    - [ ] [체크리스트 작성 참고 이미지](https://bakey-api.codeit.kr/api/files/resource?root=static&seqId=8732&version=1&directory=Untitled.png&name=Untitled.png)
-  - [ ] 주요 변경사항
-  - [ ] 멘토님에게 남길 메시지
+- [x] PR 코멘트에 다음 내용을 포함합니다.
+- [x] 스프린트 미션 요구사항 체크리스트
+  - [x] 아래 참고 이미지와 같이 완료한 항목에 체크 표시를 합니다.
+  - [x] 주요 변경사항
+  - [x] 멘토님에게 남길 메시지
 - [x] Git 활용 과정에서 Unix 명령어를 활용합니다.
 - [x] HTML, CSS 파일을 Netlify를 통해 배포합니다.
   - 참고 자료: [Netlify 배포 가이드](https://www.codeit.kr/learn/5309)
+
+    ![alt text](README_images/netlify_deploy.png)
 
 ### 1-2. 로그인 페이지 및 회원가입 페이지 공통
 
@@ -153,6 +156,8 @@
 
 - [x] 디자인 시스템의 Palette에 정의된 색상값을 CSS 변수로 등록하여 사용합니다.
 - [x] Google Analytics를 연동하여 웹사이트 방문자 수를 확인할 수 있도록 설정합니다.
+
+  ![alt text](README_images/google_analytics.png)
 
 ### 2-2. 로그인 페이지 및 회원가입 페이지 공통
 
